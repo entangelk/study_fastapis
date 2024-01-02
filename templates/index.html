@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="./css/grids_menu.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        td {
+            padding: 10px;
+        }
+
+        .container {
+            margin: 5px auto;
+        }
+
+        .nav :hover {
+            background-color: darkmagenta;
+        }
+
+        .nav>li>a {
+            color: white;
+        }
+
+        .nav>li>a:active {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- top menu 1 -->
+    <header class="top-bar con-min-width">
+        <div class="con">
+            <nav class="top-bar__menu-box-1">
+                <ul>
+                    <li>
+                        <a href="#">HTML</a>
+                        <ul>
+                            <li><a href="./temp.htm">h1 tag</a></li>
+                            <li><a href="./HTMLs/links.html">a href, 경로, form</a></li>
+                            <li><a href="./HTMLs/tables.html">table, tr, td</a></li>
+                            <li><a href="./HTMLs/welcome.html">div</a></li>
+                            <li><a href="./HTMLs/images.html">img, alt, width, height</a></li>
+                            <li><a href="./HTMLs/lists.html">list ol, ul</a></li>
+                            <li><a href="./HTMLs/forms_inputs.html">form, button, input, checkbox, label, textarea</a>
+                            </li>
+                            <li><a href="./HTMLs/form_selects.html">select</a></li>
+                            <li><a href="./HTMLs/form_input_types.html">input types</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">CSS</a>
+                        <ul>
+                            <li><a href="./CSSs/welcome.html">Style</a></li>
+                            <li><a href="./CSSs/selectors.html">Selectors</a></li>
+                            <li><a href="./CSSs/Colors.html">Color</a></li>
+                            <li><a href="./CSSs/texts.html">Text Color</a></li>
+                            <li><a href="./CSSs/borders.html">border style</a></li>
+                            <li><a href="./CSSs/boxmodels.html">box model</a></li>
+                            <li><a href="./CSSs/fonts.html">font</a></li>
+                            <li><a href="./CSSs/selectors_combinators.html">Combinators</a></li>
+                            <li><a href="./CSSs/selectors_pseudoclass.html">pseudo-class</a></li>
+                            <li><a href="./CSSs/displays.html">displays</a></li>
+                            <li><a href="./CSSs/displays_inlineblock.html">inline-block</a></li>
+                            <li><a href="./CSSs/grids.html">grid</a></li>
+                            <li><a href="./CSSs/grids_menu.html">grid-template</a></li>
+                            <li><a href="./CSSs/font_icons.html">font-icon</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">bootstrap</a>
+                        <ul>
+                            <li><a href="./bootstraps/container.html">container</a></li>
+                            <li><a href="./bootstraps/colors.html">colors</a></li>
+                            <li><a href="./bootstraps/grids.html">grids</a></li>
+                            <li><a href="./bootstraps/Cards.html">cards</a></li>
+                            <li><a href="./bootstraps/buttons.html">buttons</a></li>
+                            <li><a href="./bootstraps/tables.html">tables</a></li>
+                            <li><a href="./bootstraps/forms.html">forms</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Quest HTML</a>
+                        <ul>
+                            <li><a href="./quests/HTMLs/resume.html">table 퀘스트</a></li>
+                            <li><a href="./quests/HTMLs/images.html">image 퀘스트</a></li>
+                            <li><a href="./quests/HTMLs/basic_divs.html">basic_divs 퀘스트</a></li>
+                            <li><a href="./quests/HTMLs/form_inputs_text.html">form 퀘스트</a></li>
+                            <li><a href="./quests/HTMLs/form_inputs_resume.html">form resume퀘스트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Quest CSS</a>
+                        <ul>
+                            <li><a href="./quests/CSSs/text_colors.html">CSS Colar 퀘스트</a></li>
+                            <li><a href="./quests/CSSs/borders.html">CSS border 퀘스트</a></li>
+                            <li><a href="./quests/CSSs/resume.html">CSS resume 꾸미기 퀘스트</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- top menu 2 -->
+    <nav>
+        <ul class="nav">
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="./quests/CSSs/menus/borders.html">Border</a></li>
+            <li class="nav-item"><a href="/home">Color</a></li>
+            <li class="nav-item"><a href="./quests/CSSs/menus/texts.html">Text</a></li>
+        </ul>
+    </nav>
+    <!-- main -->
+    <main class="container">
+        <div style="text-align: center;">
+            <h1>INDEX</h1>
+        </div>
+        <div>
+            <table border="1" style="margin-left: auto; margin-right: auto; background-color: skyblue; padding: 10px;">
+                <!-- 표 헤드 -->
+                <tr style="text-align: center; background-color: white;">
+                    <td>
+                        <div>구분</div>
+                    </td>
+                    <td>
+                        <div>내용</div>
+                    </td>
+                    <td>
+                        <div>링크</div>
+                    </td>
+                </tr>
+                <!-- html 시작 부분 -->
+                <tr>
+                    <td colspan="3" style="background-color: white;">
+                        <div>
+                            <center>
+                                <h3>html</h3>
+                            </center>
+                        </div>
+                    </td>
+                </tr>
+                <!-- temp 부분 -->
+                <tr>
+                    <td>
+                        <div>h1 tag</div>
+                    </td>
+                    <td>
+                        <div>첫 html 제작, h1태그 사용 개발자 환영인사.</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./temp.htm">temp.htm</a>
+                        </div>
+                    </td>
+
+                </tr>
+                <!-- links 부분 -->
+                <tr>
+                    <td>
+                        <div>a href, 경로, form</div>
+                    </td>
+                    <td>
+                        <div>하이퍼태그 및 상대, 절대 경로 사용, form, input</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./HTMLs/links.html">links.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- tables 부분 -->
+                <tr>
+                    <td>
+                        <div>table, tr, td</div>
+                    </td>
+                    <td>
+                        <div>html내 tabel제작 및 cell merge</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./HTMLs/tables.html">tables.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- welcome 부분 -->
+                <tr>
+                    <td>
+                        <div>div</div>
+                    </td>
+                    <td>
+                        <div>내용 입력 시 div태그 사용</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./HTMLs/welcome.html">welcome.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- images 부분 -->
+                <tr>
+                    <td>
+                        <div>img, alt, width, height</div>
+                    </td>
+                    <td>
+                        <div>image 입력,넓이, 높이 태그</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./HTMLs/images.html">images.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- lists 부분 -->
+                <tr>
+                    <td>
+                        <div>list ol, ul</div>
+                    </td>
+                    <td>
+                        <div>list 태그</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./HTMLs/lists.html">lists.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- forms_inputs 부분 -->
+                <tr>
+                    <td>
+                        <div>form, button, input, checkbox, label, textarea</div>
+                    </td>
+                    <td>
+                        <div>form 태그</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./HTMLs/forms_inputs.html">forms_inputs.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- form_selects 부분 -->
+                <tr>
+                    <td>
+                        <div>select</div>
+                    </td>
+                    <td>
+                        <div>form_selects 태그</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./HTMLs/form_selects.html">form_selects.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- form_input_types 부분 -->
+                <tr>
+                    <td>
+                        <div>input types</div>
+                    </td>
+                    <td>
+                        <div>input types 태그</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./HTMLs/form_input_types.html">form_input_types.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- CSS 시작 부분 -->
+                <tr>
+                    <td colspan="3" style="background-color: white;">
+                        <div>
+                            <center>
+                                <h3>CSS</h3>
+                            </center>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- CSS_Welcome 부분 -->
+                <tr>
+                    <td>
+                        <div>Style</div>
+                    </td>
+                    <td>
+                        <div>CSS 기본 폼</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/welcome.html">CSS_Welcome.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+
+                <!-- CSS_Selectors 부분 -->
+                <tr>
+                    <td>
+                        <div>Selectors</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - selector</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/selectors.html">CSS_Selectors.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- CSS_Selectors 부분 -->
+                <tr>
+                    <td>
+                        <div>Color</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - Color 선택</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/Colors.html">CSS_Colors.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- CSS_text 부분 -->
+                <tr>
+                    <td>
+                        <div>text Color</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - text Color only</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/texts.html">CSS_texts.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- CSS_border style 부분 -->
+                <tr>
+                    <td>
+                        <div>border style</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - border style</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/borders.html">CSS_border style.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- CSS_box model 부분 -->
+                <tr>
+                    <td>
+                        <div>box model</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - box margin, padding</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/boxmodels.html">CSS_boxmodel.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- CSS_font 부분 -->
+                <tr>
+                    <td>
+                        <div>font</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - fons-size</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/fonts.html">CSS_fonts.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- CSS_Selector-combinator 부분 -->
+                <tr>
+                    <td>
+                        <div>Combinators</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - selector-combinator</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/selectors_combinators.html">CSS_combinator.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- CSS_Selector-pseudo-class 부분 -->
+                <tr>
+                    <td>
+                        <div>pseudo-class</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - selector-pseudo-class</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/selectors_pseudoclass.html">CSS_pseudo-class.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- CSS_Display 부분 -->
+                <tr>
+                    <td>
+                        <div>display</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - display</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/displays.html">CSS_display.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- CSS_Display-inlineblock 부분 -->
+                <tr>
+                    <td>
+                        <div>display-inlineblock</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - display-inlineblock</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/displays_inlineblock.html">CSS_display-inlineblock.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- CSS_grid 부분 -->
+                <tr>
+                    <td>
+                        <div>grid</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - grid(박스)</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/grids.html">CSS_grid.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- CSS_grid 부분 -->
+                <tr>
+                    <td>
+                        <div>grid-_menu</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - grid(menu)</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/grids_menu.html">CSS_grid_menu.html</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- CSS_font icons 부분 -->
+                <tr>
+                    <td>
+                        <div>font-icons</div>
+                    </td>
+                    <td>
+                        <div>CSS 기초 - font(icon)</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./CSSs/font_icons.html">CSS_font_icons.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- quest 시작 부분 -->
+                <tr>
+                    <td colspan="3" style="background-color: white;">
+                        <div style="color: blue; text-align: center; ">
+                            <h1>Quest</h1>
+                        </div>
+                    </td>
+                </tr>
+                <!-- html Quest 시작 부분 -->
+                <tr>
+                    <td colspan="3" style="background-color: white;">
+                        <div style="color: red; text-align: center;">
+                            <h3>html Quest</h3>
+                        </div>
+                    </td>
+                </tr>
+                <!-- resume 부분 -->
+                <tr>
+                    <td>
+                        <div>table 퀘스트</div>
+                    </td>
+                    <td>
+                        <div>table관련 태그 심화 사용과정</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./quests/HTMLs/resume.html">resume.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- image 부분 -->
+                <tr>
+                    <td>
+                        <div>image 퀘스트</div>
+                    </td>
+                    <td>
+                        <div>image관련 태그 사용</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./quests/HTMLs/images.html">images.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- basic_divs 부분 -->
+                <tr>
+                    <td>
+                        <div>basic_divs 퀘스트</div>
+                    </td>
+                    <td>
+                        <div>div 관련 활용 및 list 퀘스트</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./quests/HTMLs/basic_divs.html">basic_divs.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- form_inputs_text 부분 -->
+                <tr>
+                    <td>
+                        <div>form 퀘스트</div>
+                    </td>
+                    <td>
+                        <div>form 관련 활용 및 input, button 퀘스트</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./quests/HTMLs/form_inputs_text.html">form_inputs_text.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- form_inputs_resume 부분 -->
+                <tr>
+                    <td>
+                        <div>form resume퀘스트</div>
+                    </td>
+                    <td>
+                        <div>form 관련 활용 및 input, button resume 164p</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./quests/HTMLs/form_inputs_resume.html">form_inputs_resume.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- CSS Quest 시작 부분 -->
+                <tr>
+                    <td colspan="3" style="background-color: white;">
+                        <div style="color: red; text-align: center;">
+                            <h3>CSS Quest</h3>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- form_inputs_resume 부분 -->
+                <tr>
+                    <td>
+                        <div>CSS Colar 퀘스트</div>
+                    </td>
+                    <td>
+                        <div>inline CSS, internal CSS</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./quests/CSSs/text_colors.html">Quest_textcolors.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- form_inputs_resume 부분 -->
+                <tr>
+                    <td>
+                        <div>CSS border 퀘스트</div>
+                    </td>
+                    <td>
+                        <div>border-with,color,style</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./quests/CSSs/borders.html">Quest_borders.html</a>
+                        </div>
+                    </td>
+                </tr>
+                <!-- html resume 꾸미기 부분 -->
+                <tr>
+                    <td>
+                        <div>CSS resume 퀘스트</div>
+                    </td>
+                    <td>
+                        <div>html rusume CSS로 꾸미기</div>
+                    </td>
+                    <td>
+                        <div>
+                            <a href="./quests/CSSs/resume.html">Quest_resume.html</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
